@@ -10,6 +10,47 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args)
         {
+            // checked
+            // {
+            uint x = uint.MaxValue;
+
+            Console.WriteLine(x);
+
+            x = x + 1; // overflow - переполнение,
+                       // когда мы превышаем максимальное значение,
+                       // которое можт содержать данный тип,
+                       // оно становится минимальным
+
+            Console.WriteLine(x);
+
+            x = x - 1;
+
+            Console.WriteLine(x);
+            //}
+        }
+
+        static void VariablesScope()
+        {
+            var a = 1;
+            {
+                var b = 2;
+                {
+                    var c = 3;
+
+                    Console.WriteLine(a);
+                    Console.WriteLine(b);
+                    Console.WriteLine(c);
+                    // внешние области видимости распространяются на внутренние,
+                    // а внутренние на внешние не распросраняются
+                }
+                Console.WriteLine(a);
+                Console.WriteLine(b);
+                // Console.WriteLine(c); переменной нет в этой области видимости
+            }
+        }
+
+        static void Literals()
+        {
             // Variables(); 
             // вызов функции Variables
 
