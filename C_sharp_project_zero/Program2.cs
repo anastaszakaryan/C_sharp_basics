@@ -1,16 +1,56 @@
-﻿// using Microsoft.AspNetCore.Hosting;
-// using Microsoft.Extensions.Configuration;
-// using Microsoft.Extensions.Hosting;
-// using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
-// using System.Linq;
-// using System.Threading.Tasks;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace C_sharp_project_zero
 {
-    class Program
+    class Program2
     {
+        static void Main(string[] args)
+        {
+            // Variables(); 
+            // вызов функции Variables
+
+            int x = 0b11; // 3
+            int y = 0b1001; // 9
+            int k = 0b10001001;
+            int m = 0b1000_1001;
+            // литерал можно передавать в переменные в бинарном виде
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(k);
+            Console.WriteLine(m);
+
+            Console.WriteLine();
+
+            x = 0x1;
+            y = 0xFF0D;
+            k = 0x1FAB30EF;
+            m = 0x1FAB_30EF;
+            // шестнадцатиричные литералы
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(k);
+            Console.WriteLine(m);
+
+            Console.WriteLine();
+
+            Console.WriteLine(4.5e2);
+            Console.WriteLine(3.1E-1);
+
+            Console.WriteLine();
+
+            Console.WriteLine('\x78');
+            Console.WriteLine('\x5A');
+
+            Console.WriteLine('\u0420');
+            Console.WriteLine('\u0421');
+        }
+
         static void Variables()
         {
             int x = -1;
@@ -50,7 +90,7 @@ namespace C_sharp_project_zero
             // нельзя объявить, но не декларировать переменную
 
             decimal money = 3.0m; // объявление перемнной типа decimal
-                // больше наков после запятой, чем у double
+                                  // больше наков после запятой, чем у double
 
             char character = 'A';
             string name = "John";
