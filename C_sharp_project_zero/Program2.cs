@@ -9,8 +9,39 @@ namespace C_sharp_project_zero
     class Program2
     {
         static void Main(string[] args) 
-        { 
-        
+        {
+            string empty = "";
+            string whiteSpaced = " ";
+            string notEmpty = " b";
+            string nullString = null;
+
+            Console.WriteLine("IsNullOrEmpty");
+            bool isNullOrEmpty = string.IsNullOrEmpty(nullString);
+            Console.WriteLine(isNullOrEmpty);
+
+            isNullOrEmpty = string.IsNullOrEmpty(whiteSpaced);
+            Console.WriteLine(isNullOrEmpty);
+
+            isNullOrEmpty = string.IsNullOrEmpty(notEmpty);
+            Console.WriteLine(isNullOrEmpty);
+
+            isNullOrEmpty = string.IsNullOrEmpty(empty);
+            Console.WriteLine(isNullOrEmpty);
+
+            Console.WriteLine();
+            Console.WriteLine("IsNullOrWhiteSpace");
+
+            bool IsNullOrWhiteSpace = string.IsNullOrWhiteSpace(nullString);
+            Console.WriteLine(IsNullOrWhiteSpace);
+
+            IsNullOrWhiteSpace = string.IsNullOrWhiteSpace(whiteSpaced);
+            Console.WriteLine(IsNullOrWhiteSpace);
+
+            IsNullOrWhiteSpace = string.IsNullOrWhiteSpace(notEmpty);
+            Console.WriteLine(IsNullOrWhiteSpace);
+
+            IsNullOrWhiteSpace = string.IsNullOrWhiteSpace(empty);
+            Console.WriteLine(IsNullOrWhiteSpace);
         }
 
         static void QueryingStrings() 
