@@ -1,0 +1,16 @@
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\C_sharp_project_zero.csproj.AssemblyReference.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\C_sharp_project_zero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\C_sharp_project_zero.AssemblyInfoInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\C_sharp_project_zero.AssemblyInfo.cs
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\C_sharp_project_zero.csproj.CoreCompileInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\bin\Debug\net5.0\C_sharp_project_zero.exe
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\bin\Debug\net5.0\C_sharp_project_zero.deps.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\bin\Debug\net5.0\C_sharp_project_zero.runtimeconfig.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\bin\Debug\net5.0\C_sharp_project_zero.runtimeconfig.dev.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\bin\Debug\net5.0\C_sharp_project_zero.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\bin\Debug\net5.0\ref\C_sharp_project_zero.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\bin\Debug\net5.0\C_sharp_project_zero.pdb
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\C_sharp_project_zero.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\ref\C_sharp_project_zero.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\C_sharp_project_zero.pdb
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\obj\Debug\net5.0\C_sharp_project_zero.genruntimeconfig.cache
