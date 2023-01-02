@@ -9,6 +9,44 @@ namespace C_sharp_project_zero
     class Program2
     {
         static void Main(string[] args) 
+        { 
+        
+        }
+
+        static void QueryingStrings() 
+        {
+            string name = "abracadabra";
+            bool containsA = name.Contains('a');
+            bool containsE = name.Contains('e');
+
+            Console.WriteLine(containsA);
+            Console.WriteLine(containsE);
+
+            bool endsWithAbra = name.EndsWith("abra");
+            Console.WriteLine(endsWithAbra);
+
+            bool startsWithAbra = name.StartsWith("abra");
+            Console.WriteLine(startsWithAbra);
+
+            int indexOfA = name.IndexOf('a', 1); 
+            // 1 индекс, с которого начинать поиск
+            Console.WriteLine(indexOfA);
+
+            int lastIndexOfR = name.LastIndexOf('r');
+            Console.WriteLine(lastIndexOfR);
+
+            Console.WriteLine(name.Length);
+
+            string substrFrom5 = name.Substring(5);
+            string subsFromTo = name.Substring(0, 3);
+
+            Console.WriteLine(subsFromTo);
+            Console.WriteLine(subsFromTo);
+
+
+        }
+
+        static void StaticAndInstanceMembers() 
         {
             // string name = "abracadabra";
             string name = new string("abracadabra"); // конструктор
