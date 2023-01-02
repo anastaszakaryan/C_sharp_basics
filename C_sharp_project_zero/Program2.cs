@@ -13,6 +13,30 @@ namespace C_sharp_project_zero
             int x = 1;
             int y = 2;
 
+            bool areEqual = x == y;
+            Console.WriteLine(areEqual);
+
+            bool result = x > y;
+            Console.WriteLine(result);
+
+            result = x >= y;
+            Console.WriteLine(result);
+
+            result = x < y;
+            Console.WriteLine(result);
+
+            result = x <= y;
+            Console.WriteLine(result);
+
+            result = x != y;
+            Console.WriteLine(result);
+        }
+
+        static void MathOperations() 
+        {
+            int x = 1;
+            int y = 2;
+
             int z = x + y;
             int k = x - y;
             int a = z + k - y;
@@ -47,7 +71,7 @@ namespace C_sharp_project_zero
 
             Console.WriteLine();
 
-            a = 2 + 2 * 2;
+            a = (2 + 2) * 2;
             Console.WriteLine(a);
 
             Console.WriteLine();
