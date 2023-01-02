@@ -8,7 +8,59 @@ namespace C_sharp_project_zero
 {
     class Program2
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
+        {
+            int x = 1;
+            int y = 2;
+
+            int z = x + y;
+            int k = x - y;
+            int a = z + k - y;
+
+            Console.WriteLine(z);
+            Console.WriteLine(k);
+            Console.WriteLine(a);
+
+            Console.WriteLine();
+
+            int b = z * 2;
+            int c = k / 2; // int срезает всё, что после запятой в дроби
+
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+
+            Console.WriteLine();
+
+            a = 4 % 2;
+            b = 5 % 2;
+            // например, проверки на чётность
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+
+            Console.WriteLine();
+
+            a = 3;
+            a = a * a;
+            // a = a * a * a;
+            Console.WriteLine(a);
+
+            Console.WriteLine();
+
+            a = 2 + 2 * 2;
+            Console.WriteLine(a);
+
+            Console.WriteLine();
+
+            a *= 2;
+            // a = a * 2;
+            Console.WriteLine(a);
+            a /= 2;
+            // a = a / 2;
+            Console.WriteLine(a);
+        }
+
+        static void IncrementDecrementDemo()
         {
             int x = 1;
             x = x + 1;
