@@ -10,6 +10,37 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args) 
         {
+            // string name = "abracadabra";
+            string name = new string("abracadabra"); // конструктор
+            // экземпляр строки, abracadabra - литерал
+            // класс определяет методы, которые могут быть использованы
+            // методы класса - не статические, а экземплярные
+            bool containsA = name.Contains('a');
+            bool containsE = name.Contains('e');
+
+            Console.WriteLine(containsA);
+            Console.WriteLine(containsE);
+
+            // статический тип не имеет состояния,
+            // мы не можем его создать
+            // вызываем статический метод без создания экземпляра
+
+            string abc = string.Concat("a", "b", "c");
+            // метод concat статический
+            // метод вызывается на самом типе string
+            // метод возвращает экземпляр типа string
+
+            Console.WriteLine(int.MinValue);
+            // MinValue также статический метод, вызывается на типе
+
+            int x = 1;
+            string xStr = x.ToString();
+            Console.WriteLine(xStr);
+            Console.WriteLine(x);
+        }
+
+        static void ComparisonOperators() 
+        {
             int x = 1;
             int y = 2;
 
