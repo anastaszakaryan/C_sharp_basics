@@ -10,6 +10,47 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args)
         {
+            int x = 1;
+            x = x + 1;
+
+            Console.WriteLine(x);
+
+            x++; // постфикс
+            Console.WriteLine(x);
+
+            ++x; // инфикс
+            Console.WriteLine(x);
+
+            // инкремент на 1
+
+            x = x - 1;
+            x--;
+            --x;
+            Console.WriteLine(x);
+            // декремент на 1
+
+            Console.WriteLine("Learn abiut increments");
+            Console.WriteLine($"Last x state is {x}");
+
+            int j = x++; // присвоение приоритетнее постфиксного инкремента
+            Console.WriteLine(j);
+            Console.WriteLine(x);
+
+            j = ++x; // префиксный инкремент приоритетнее присвоения
+            Console.WriteLine(j);
+            Console.WriteLine(x);
+
+            x += 2;
+            // x = x + 2;
+            Console.WriteLine(x);
+
+            j -= 2;
+            // j = j - 2;
+            Console.WriteLine(j);
+        }
+
+        static void Overflow()
+        {
             // checked
             // {
             uint x = uint.MaxValue;
