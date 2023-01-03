@@ -10,6 +10,20 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args) 
         {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("My ");
+            sb.Append("name ");
+            sb.Append("is ");
+            sb.Append("Jim");
+            sb.AppendLine("!");
+            sb.AppendLine("Hello!");
+
+            string str = sb.ToString();
+            Console.WriteLine(str);
+        }
+
+        static void StringModification() 
+        {
             string nameConcat = string.Concat("My ", "name ", "is ", "Anastasiia");
             Console.WriteLine(nameConcat);
 
