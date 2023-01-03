@@ -10,6 +10,50 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args) 
         {
+            string nameConcat = string.Concat("My ", "name ", "is ", "Anastasiia");
+            Console.WriteLine(nameConcat);
+
+            nameConcat = "My " + "name " + "is " + "John";
+            Console.WriteLine(nameConcat);
+
+            nameConcat = string.Join(" ", "My", "name", "is", "Dmitrii");
+            Console.WriteLine(nameConcat);
+
+            // nameConcat =
+            nameConcat = nameConcat.Insert(0, "By the way, ");
+            Console.WriteLine(nameConcat);
+            // методы инстанции не изменяют саму инстанцию
+
+            nameConcat = nameConcat.Remove(0, 1);
+            // индекс, с которого удаляем, и сколько удаляем
+            Console.WriteLine(nameConcat);
+
+            string replaced = nameConcat.Replace('i', 'x');
+            Console.WriteLine(replaced);
+
+            string data = "12;28;34;25;64";
+            string[] splitData = data.Split(';');
+            string first = splitData[0];
+            Console.WriteLine(first);
+
+            char[] chars = nameConcat.ToCharArray();
+            Console.WriteLine(chars[0]);
+            Console.WriteLine(nameConcat[0]);
+
+            string lower = nameConcat.ToLower();
+            Console.WriteLine(lower);
+
+            string upper = nameConcat.ToUpper();
+            Console.WriteLine(upper);
+
+            string john = " My name is John ";
+            Console.WriteLine(john.Trim());
+        }
+
+        static void MaiStringEmptiness() 
+        {
+            string str = string.Empty; // same as ""
+
             string empty = "";
             string whiteSpaced = " ";
             string notEmpty = " b";
