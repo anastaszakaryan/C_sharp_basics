@@ -11,6 +11,27 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args) 
         {
+            // string str1 = "abcde";
+            // string str2 = "abcde";
+
+            // bool areEqual = str1 == str2;
+            // Console.WriteLine(areEqual);
+
+            // areEqual = string.Equals(str1, str2, StringComparison.Ordinal);
+            // Console.WriteLine(areEqual);
+
+            string s1 = "Strasse";
+            string s2 = "Straße";
+            bool areEqual = string.Equals(s1, s2, StringComparison.Ordinal);
+            Console.WriteLine(areEqual);
+            areEqual = string.Equals(s1, s2, StringComparison.InvariantCulture);
+            Console.WriteLine(areEqual);
+            areEqual = string.Equals(s1, s2, StringComparison.CurrentCulture);
+            Console.WriteLine(areEqual);
+
+        } 
+        static void StringFormat() 
+        {
             string name = "Anastasiia";
             int age = 28;
             string str1 = string.Format("Me name is {0} and I'm {1}", name, age);
