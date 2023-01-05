@@ -11,6 +11,43 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args)
         {
+            byte b = 3; // 8 бит 0000 0011
+            int i = b; // 4 байта, 32 бита 0000 0000 0000 0000 0000 0000 0000 0011
+            long l = i; // 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011
+            Console.WriteLine(l);
+
+            float f = i;
+            Console.WriteLine(f);
+
+            // b = i; 
+            // нельзя впихнуть невпихиваемое
+
+            b = (byte)i; // явное приведение
+            Console.WriteLine(b);
+
+            // i = f;
+            i = (int)f;
+            Console.WriteLine(i);
+
+            f = 3.1f;
+            i = (int)f; // потеря точности
+            Console.WriteLine(i);
+
+            // строку привести к int нельзя
+            string str = "1";
+            // i = (int)str;
+            i = int.Parse(str);
+            Console.WriteLine($"Parsed i = {i}");
+
+            int x = 5;
+            int result = x / 2;
+            Console.WriteLine(result);
+
+            double result2 = (double)x / 2; // приведение типов более приоритетная операция, чем деление
+
+        }
+        static void ConsoleBasics()
+        {
             // Console.WriteLine("Hi, please tell me your name");
             // string name = Console.ReadLine();
             // string sentence = $"Your name is {name}";
