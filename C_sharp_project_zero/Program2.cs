@@ -11,6 +11,25 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args)
         {
+            // a single-line comment
+
+            /*
+             * Multi-line comment
+             * We can write here
+             * 
+             */
+
+            // descrive hows and whys! not whats!
+
+            int a = 1;
+
+            // increment a by 1 - bad comment, this code os self-evident
+
+            // we need to tweak the index to match the expected outcome
+            a++;
+        }
+        static void CastingAndParsing()
+        {
             byte b = 3; // 8 бит 0000 0011
             int i = b; // 4 байта, 32 бита 0000 0000 0000 0000 0000 0000 0000 0011
             long l = i; // 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0011
