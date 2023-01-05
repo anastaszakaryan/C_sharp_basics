@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace C_sharp_project_zero
@@ -9,6 +10,66 @@ namespace C_sharp_project_zero
     class Program2
     {
         static void Main(string[] args) 
+        {
+            string name = "Anastasiia";
+            int age = 28;
+            string str1 = string.Format("Me name is {0} and I'm {1}", name, age);
+            // string str2 = "My name is " + name + " and I'm " + age;
+            // string str2 = $"My name is " + name + " and I'm " + age;
+            string str2 = $"My name is {name} and I'm {age}";
+
+            string str3 = "My name is \n John"; // \r\n или \n
+            string str4 = "I'm \t 30";
+
+            str3 = $"My name is {Environment.NewLine}John";
+
+            string str5 = "I'm John and I'm a \"good\" programmer";
+            // экранирование кавычек
+
+            Console.WriteLine(str1);
+            Console.WriteLine(str3);
+
+            Console.WriteLine(str5);
+
+            // string str6 = "C:\\tmp\\test_file.txt"; 
+            string str6 = @"C:\tmp\test_file.txt";
+            // экранирование слэша
+            Console.WriteLine(str6);
+
+            int answer = 42;
+            string result = string.Format("{0:d}", answer);
+            string result2 = string.Format("{0:d4}", answer);
+
+            Console.WriteLine(result);
+            Console.WriteLine(result2);
+
+            double answer2 = 42.3;
+            result = string.Format("{0:f}", answer2);
+            result2 = string.Format("{0:f4}", answer2); // к числу добавятся ноли
+
+            Console.WriteLine(result);
+            Console.WriteLine(result2);
+
+            double answer3 = 42.08;
+            string result3 = string.Format("{0:f1}",answer3); // число округлится
+            Console.WriteLine(result3);
+
+            Console.OutputEncoding = Encoding.UTF8;
+
+            double money = 12.8;
+            result = string.Format("{0:C}", money);
+            result2 = string.Format("{0:C3}", money);
+
+            result = $"{money:C2}";
+
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+            
+            Console.WriteLine(result);
+            Console.WriteLine(money.ToString("C2"));
+            Console.WriteLine(result2);
+        }
+
+        static void StringBuilderDemo() 
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("My ");
