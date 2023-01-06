@@ -10,8 +10,29 @@ namespace C_sharp_project_zero
     class Program2
     {
         static void Main(string[] args)
-        { 
-        
+        {
+            // NB!
+            // всю арифметику на датах нужно проводить с помощью специальных методов DateTime
+            // помните про часовые пояса
+
+            DateTime now = DateTime.Now;
+            Console.WriteLine(now.ToString());
+
+            Console.WriteLine($"It's {now.Date}, {now.Hour}: {now.Minute}");
+
+            DateTime dt = new DateTime(2016, 2, 28); // по умолчанию полночь
+            Console.WriteLine(dt);
+
+            // DateTime не изменяет экземпляр, а создаёт новый
+            DateTime newDt = dt.AddDays(1); // високосный год
+            Console.WriteLine(newDt);
+
+            newDt = newDt.AddDays(1); // переход на следующий месяц
+            Console.WriteLine(newDt);
+
+            TimeSpan ts = now - dt; // длительность между экземплярами
+            // ts = now.Subtract(dt);
+            Console.WriteLine(ts.Days);
         }
         static void IntroToArrays()
         {
