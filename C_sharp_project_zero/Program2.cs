@@ -11,6 +11,78 @@ namespace C_sharp_project_zero
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, what is your last name?");
+            string FirstName = Console.ReadLine();
+            Console.WriteLine("What is your first name?");
+            string LastName = Console.ReadLine();
+            Console.WriteLine("What is your age?");
+            string input_age = Console.ReadLine();
+            int age = int.Parse(input_age);
+            Console.WriteLine("What is your height?");
+            string input_height = Console.ReadLine();
+            double height = double.Parse(input_height);
+            Console.WriteLine("What is your weight?");
+            string input_weight = Console.ReadLine();
+            double weight = double.Parse(input_weight);
+
+            double BMI = weight / (height * height);
+
+            Console.WriteLine();
+
+            Console.WriteLine("Your profile:\n" +
+                $"Full Name: {LastName} {FirstName}\n" +
+                $"Age: {age}\n" +
+                $"Weight: {weight}\n" +
+                $"Height: {height}\n" +
+                "Body Mass Index: {0:f2}",BMI);
+        }
+
+        static void Homework02()
+        {
+            Console.WriteLine("Hello, tell me lengths of three sides of a triangle");
+
+            string input1 = Console.ReadLine();
+            double ab = double.Parse(input1);
+            string input2 = Console.ReadLine();
+            double bc = double.Parse(input2);
+            string input3 = Console.ReadLine();
+            double ac = double.Parse(input3);
+
+            double P = (ab + bc + ac) / 2;
+            double S = Math.Sqrt(P * (P - ab) * (P - bc) * (P - ac));
+
+            Console.WriteLine("Square of triangle equals {0:f2}", S);
+        }
+
+        static void Homework01()
+        {
+            // Solution 1
+            Console.WriteLine("Hi, what is your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}.");
+
+            // Solution 2
+            Console.WriteLine("Tell me two numbers, please");
+            string input1 = Console.ReadLine();
+            int num1 = int.Parse(input1);
+            string input2 = Console.ReadLine();
+            int num2 = int.Parse(input2);
+            Console.WriteLine($"Your numbers are {num1} and {num2}");
+
+            int temp = num1;
+            num1 = num2;
+            num2 = temp;
+            Console.WriteLine($"Your numbers vice versa are {num1} and {num2}");
+
+            // Solution3
+            Console.WriteLine("Tell me positive integer number, please");
+            string input3 = Console.ReadLine();
+            int str_len = input3.Length;
+            Console.WriteLine($"Your number has {str_len} digit");
+        }
+
+        static void DateTimeIntro()
+        {
             // NB!
             // всю арифметику на датах нужно проводить с помощью специальных методов DateTime
             // помните про часовые пояса
@@ -34,6 +106,7 @@ namespace C_sharp_project_zero
             // ts = now.Subtract(dt);
             Console.WriteLine(ts.Days);
         }
+
         static void IntroToArrays()
         {
             int[] a1; // объявление массива
