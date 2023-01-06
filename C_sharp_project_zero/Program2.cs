@@ -10,6 +10,10 @@ namespace C_sharp_project_zero
     class Program2
     {
         static void Main(string[] args)
+        { 
+        
+        }
+        static void IntroToArrays()
         {
             int[] a1; // объявление массива
             a1 = new int[10]; // ~ 40 байт под массив, 10 чисел с индексами от 0 до 9
