@@ -10,8 +10,36 @@ namespace C_sharp_project_zero
     class Program2
     {
         static void Main(string[] args)
-        { 
-        
+        {
+            int[] a1; // объявление массива
+            a1 = new int[10]; // ~ 40 байт под массив, 10 чисел с индексами от 0 до 9
+
+            int[] a2 = new int[5];
+
+            int[] a3 = new int[5] { 1, 3, - 2, 5, 10 };
+
+            int[] a4 = { 1, 2, 3, 4, 5 };
+
+            Console.WriteLine(a4[0]);
+
+            int number = a4[4];
+            Console.WriteLine(number);
+
+            a4[4] = 6;
+            Console.WriteLine(a4[4]);
+
+            Console.WriteLine(a4.Length); // длина массива
+            Console.WriteLine(a4[a4.Length - 1]); // обращение к последнему элементу массива
+
+            // со string можно работать как с массивом
+            // модифицировать строку НЕЛЬЗЯ
+            // impossible
+            // s1[0] = 'z';
+            string s1 = "abcdefgh";
+            char first = s1[0];
+            char last = s1[s1.Length - 1];
+
+            Console.WriteLine($"First: {first}, last: {last}");
         }
 
         static void MathDemo() 
