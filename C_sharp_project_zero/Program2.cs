@@ -10,6 +10,32 @@ namespace C_sharp_project_zero
     class Program2
     {
         static void Main(string[] args)
+        { 
+        
+        }
+
+        static void MathDemo() 
+        {
+            // math - статический класс,
+            // у него есть много статических методов,
+            // с их помощью можно производить математические вычисления
+
+            Console.WriteLine(Math.Pow(2, 3));
+            Console.WriteLine(Math.Sqrt(9));
+            Console.WriteLine(Math.Sqrt(8));
+
+            Console.WriteLine(Math.Round(1.7));
+            Console.WriteLine(Math.Round(1.4));
+            Console.WriteLine();
+
+            Console.WriteLine(Math.Round(2.5)); // по умолчанию ToEven
+            Console.WriteLine();
+
+            Console.WriteLine(Math.Round(2.5, MidpointRounding.AwayFromZero)); // число округляется к ближайшему числу, удаленному от нуля
+            Console.WriteLine(Math.Round(2.5, MidpointRounding.ToEven)); // число округляется к ближайшему четному числу
+        }
+
+        static void Comments()
         {
             // a single-line comment
 
@@ -28,6 +54,7 @@ namespace C_sharp_project_zero
             // we need to tweak the index to match the expected outcome
             a++;
         }
+
         static void CastingAndParsing()
         {
             byte b = 3; // 8 бит 0000 0011
@@ -65,6 +92,7 @@ namespace C_sharp_project_zero
             double result2 = (double)x / 2; // приведение типов более приоритетная операция, чем деление
 
         }
+
         static void ConsoleBasics()
         {
             // Console.WriteLine("Hi, please tell me your name");
@@ -86,6 +114,7 @@ namespace C_sharp_project_zero
             Console.Write("New Style ");
             Console.Write("New Style\n");
             ;        }
+
         static void ComparingStrings() 
         {
             // string str1 = "abcde";
@@ -107,6 +136,7 @@ namespace C_sharp_project_zero
             Console.WriteLine(areEqual);
 
         } 
+
         static void StringFormat() 
         {
             string name = "Anastasiia";
