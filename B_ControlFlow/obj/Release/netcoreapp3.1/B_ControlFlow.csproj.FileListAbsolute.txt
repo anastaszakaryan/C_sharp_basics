@@ -1,0 +1,14 @@
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\bin\Release\netcoreapp3.1\B_ControlFlow.exe
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\bin\Release\netcoreapp3.1\B_ControlFlow.deps.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\bin\Release\netcoreapp3.1\B_ControlFlow.runtimeconfig.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\bin\Release\netcoreapp3.1\B_ControlFlow.runtimeconfig.dev.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\bin\Release\netcoreapp3.1\B_ControlFlow.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\bin\Release\netcoreapp3.1\B_ControlFlow.pdb
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\obj\Release\netcoreapp3.1\B_ControlFlow.csproj.AssemblyReference.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\obj\Release\netcoreapp3.1\B_ControlFlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\obj\Release\netcoreapp3.1\B_ControlFlow.AssemblyInfoInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\obj\Release\netcoreapp3.1\B_ControlFlow.AssemblyInfo.cs
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\obj\Release\netcoreapp3.1\B_ControlFlow.csproj.CoreCompileInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\obj\Release\netcoreapp3.1\B_ControlFlow.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\obj\Release\netcoreapp3.1\B_ControlFlow.pdb
+C:\Users\anzakaryan\source\repos\C_sharp_basics\B_ControlFlow\obj\Release\netcoreapp3.1\B_ControlFlow.genruntimeconfig.cache

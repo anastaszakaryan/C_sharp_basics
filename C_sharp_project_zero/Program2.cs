@@ -10,18 +10,25 @@ namespace C_sharp_project_zero
     class Program2
     {
         static void Main(string[] args)
+        { 
+        }
+        static void Homework03()
         {
             Console.WriteLine("Hello, what is your last name?");
             string FirstName = Console.ReadLine();
+
             Console.WriteLine("What is your first name?");
             string LastName = Console.ReadLine();
+
             Console.WriteLine("What is your age?");
             string input_age = Console.ReadLine();
             int age = int.Parse(input_age);
-            Console.WriteLine("What is your height?");
+
+            Console.WriteLine("What is your height in m?");
             string input_height = Console.ReadLine();
             double height = double.Parse(input_height);
-            Console.WriteLine("What is your weight?");
+
+            Console.WriteLine("What is your weight in kg?");
             string input_weight = Console.ReadLine();
             double weight = double.Parse(input_weight);
 
@@ -29,12 +36,14 @@ namespace C_sharp_project_zero
 
             Console.WriteLine();
 
-            Console.WriteLine("Your profile:\n" +
+            string profile = "Your profile:\n" +
                 $"Full Name: {LastName} {FirstName}\n" +
                 $"Age: {age}\n" +
                 $"Weight: {weight}\n" +
                 $"Height: {height}\n" +
-                "Body Mass Index: {0:f2}",BMI);
+                $"Body Mass Index: {BMI}";
+
+            Console.WriteLine(profile);
         }
 
         static void Homework02()
