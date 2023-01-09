@@ -4,6 +4,33 @@ namespace B_ControlFlow
 {
     class Program
     {
+        static void Main(string[] args)
+        {
+            int age = 0;
+            while (age < 18)
+            {
+                Console.WriteLine("What is your age?");
+                age = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Good!");
+
+            do
+            {
+                Console.WriteLine("Do\\While");
+                Console.WriteLine("What is your age?");
+                age = int.Parse(Console.ReadLine());
+            }
+            while (age < 18);
+
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            int i = 0;
+            while (i < numbers.Length)
+            {
+                Console.Write(numbers[i] + " ");
+                i++; // инкремент оператора
+            }
+        }
+
         static void NestedFor()
         {
             int[] numbers = { 1, -2, 4, -7, 5, 3, 2, -1, -3, 2, 7, -1, -3, 1, 7 };
