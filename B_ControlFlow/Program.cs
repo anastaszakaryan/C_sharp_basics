@@ -1,10 +1,65 @@
 ﻿using System;
+using System.Linq;
 
 namespace B_ControlFlow
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            Console.WriteLine("How many Fibonacchi numbers do you wanna see?");
+            string input1 = Console.ReadLine();
+            int numOfNums = int.Parse(input1);
+
+            int[] answer = new int[numOfNums];
+            answer[0] = 1;
+            answer[1] = 1;
+
+            Console.WriteLine("Your numbers are:");
+
+            if (numOfNums == 1)
+            {
+                Console.WriteLine(answer[0]);
+            }
+            else if (numOfNums == 2)
+            {
+                Console.WriteLine(answer[0] + " " + answer[1]);
+            }
+            else
+            {
+                Console.Write(answer[0] + " " + answer[1]);
+                int new_num;
+                for (int i = 2; i < numOfNums; i++)
+                {
+                    new_num = answer[i - 1] + answer[i - 2];
+                    answer[i] = new_num;
+                    answer.Append(new_num);
+                    Console.Write(" " + answer[i]);
+                }
+            }
+        }
+
+        static void Debug()
+        {
+            Console.WriteLine("Hello, tell me lengths of three sides of a triangle");
+
+            string input1 = Console.ReadLine();
+            double ab = GetDouble();
+            string input2 = Console.ReadLine();
+            double bc = GetDouble();
+            string input3 = Console.ReadLine();
+            double ac = GetDouble();
+
+            double P = ab + bc + ac / 2; // в этой строке ошибка
+            double S = Math.Sqrt(P * (P - ab) * (P - bc) * (P - ac));
+
+            Console.WriteLine("Square of triangle equals {0:f2}", S);
+        }
+        static double GetDouble()
+        {
+            return double.Parse(Console.ReadLine());
+        }
+        static void SwitchCase()
         {
 
             int month = int.Parse(Console.ReadLine());
@@ -69,6 +124,7 @@ namespace B_ControlFlow
             }
             Console.WriteLine(name);
         }
+
         static void BreakContinue()
         {
             Console.WriteLine();
@@ -124,6 +180,7 @@ namespace B_ControlFlow
                 }
             }
         }
+
         static void WhileDoWhile()
         {
             int age = 0;
