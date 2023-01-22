@@ -7,6 +7,37 @@ namespace B_ControlFlow
     {
         static void Main(string[] args)
         {
+            int[] array_of_nums = new int[10];
+            int newNum;
+            int inputCount = 0;
+            while (inputCount < 10)
+            {
+                string input2 = Console.ReadLine();
+                newNum = int.Parse(input2);
+                if (newNum == 0)
+                    break;
+                array_of_nums[inputCount] = newNum;
+                inputCount++;
+            }
+
+            Console.WriteLine();
+
+            int summa = 0;
+            int kolichestvo = 0;
+            for (int i = 0; i < array_of_nums.Length ; i++)
+            {
+                if (array_of_nums[i] > 0 && array_of_nums[i] % 3 == 0)
+                {
+                    summa = summa + array_of_nums[i];
+                    kolichestvo = kolichestvo + 1;
+                }
+            }
+            double srednee = (double)summa / kolichestvo;
+            Console.WriteLine(srednee);
+        }
+
+        static void Homework_Fibonacchi()
+        {
             Console.WriteLine("How many Fibonacchi numbers do you wanna see?");
             string input1 = Console.ReadLine();
             int numOfNums = int.Parse(input1);
