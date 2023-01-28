@@ -1,0 +1,14 @@
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\obj\Debug\netcoreapp3.1\C_ArraysCollection.csproj.AssemblyReference.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\obj\Debug\netcoreapp3.1\C_ArraysCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\obj\Debug\netcoreapp3.1\C_ArraysCollection.AssemblyInfoInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\obj\Debug\netcoreapp3.1\C_ArraysCollection.AssemblyInfo.cs
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\obj\Debug\netcoreapp3.1\C_ArraysCollection.csproj.CoreCompileInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\bin\Debug\netcoreapp3.1\C_ArraysCollection.exe
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\bin\Debug\netcoreapp3.1\C_ArraysCollection.deps.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\bin\Debug\netcoreapp3.1\C_ArraysCollection.runtimeconfig.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\bin\Debug\netcoreapp3.1\C_ArraysCollection.runtimeconfig.dev.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\bin\Debug\netcoreapp3.1\C_ArraysCollection.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\bin\Debug\netcoreapp3.1\C_ArraysCollection.pdb
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\obj\Debug\netcoreapp3.1\C_ArraysCollection.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\obj\Debug\netcoreapp3.1\C_ArraysCollection.pdb
+C:\Users\anzakaryan\source\repos\C_sharp_basics\C_ArraysCollection\obj\Debug\netcoreapp3.1\C_ArraysCollection.genruntimeconfig.cache
