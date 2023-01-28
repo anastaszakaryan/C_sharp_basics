@@ -8,6 +8,75 @@ namespace C_ArraysCollection
     {
         static void Main(string[] args)
         {
+            var people = new Dictionary<int, string>();
+            people.Add(1, "John");
+            people.Add(2, "Bob");
+            people.Add(3, "ALice");
+
+            people = new Dictionary<int, string>()
+            {
+                { 1,"John"},
+                { 2, "Bob"},
+                { 3, "Alice"},
+            };
+
+            string name = people[1];
+            Console.WriteLine(name);
+
+            Console.WriteLine("Iterating over keys");
+            Dictionary<int, string>.KeyCollection keys = people.Keys;
+            foreach (var item in keys)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Iterating over values");
+            Dictionary<int, string>.ValueCollection values = people.Values;
+            foreach (var item in values)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Iterating over key-value pairs");
+            foreach (var pair in people)
+            {
+                Console.WriteLine($"Key:{pair.Key}. Value:{pair.Value}");
+            }
+
+            Console.WriteLine($"Count={people.Count}");
+
+            bool containsKey = people.ContainsKey(2); // быстрый поиск
+            bool containsValue = people.ContainsValue("John"); // медленный поиск
+
+            Console.WriteLine($"Contains key:{containsKey}. Contains value:{containsValue}");
+
+            people.Remove(1);
+
+            if (people.TryAdd(2, "Elias"))
+            {
+                Console.WriteLine("Added successfully");
+            }
+            else 
+            {
+                Console.WriteLine("Failed to add using key 2");
+            }
+            Console.WriteLine();
+
+            if (people.TryGetValue(2, out string val))
+            {
+                Console.WriteLine($"Key 2, Val={val}");
+            }
+            else
+            {
+                Console.WriteLine("Failed to get");
+            }
+
+            people.Clear();
+        }
+        static void ListDemo()
+        {
             var intList = new List<int>() { 1, 4, 2, 7, 5, 9, 12 }; // обобщение
             intList.Add(7);
 
