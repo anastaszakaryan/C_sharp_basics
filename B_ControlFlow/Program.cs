@@ -7,6 +7,40 @@ namespace B_ControlFlow
     {
         static void Main(string[] args)
         {
+            string login_in_memory = "johnsilver";
+            string password_in_memory = "qwerty";
+            bool wrong = true;
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine("Please enter login and password");
+                string login_in_input = Console.ReadLine();
+                string password_in_input = Console.ReadLine();
+
+                if (login_in_input == login_in_memory && password_in_input == password_in_memory)
+                {
+                    Console.WriteLine("Enter the System");
+                    wrong = false;
+                    break;
+                }
+            }
+            if (wrong)
+                Console.WriteLine("The number of available tries have been exceeded");
+        }
+        static void Homework_factorial()
+        {
+            string num_str = Console.ReadLine();
+            int num_int = int.Parse(num_str);
+
+            long end_multi = 1;
+            for (int i = 1; i <= num_int; i++)
+            {
+                end_multi *= i;
+            }
+            Console.WriteLine(end_multi);
+        }
+        static void Homework_Average()
+        {
             int[] array_of_nums = new int[10];
             int newNum;
             int inputCount = 0;
