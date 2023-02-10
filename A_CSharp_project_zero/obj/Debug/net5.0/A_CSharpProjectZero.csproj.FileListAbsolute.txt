@@ -1,0 +1,5 @@
+C:\Users\anzakaryan\source\repos\C_sharp_basics\A_CSharp_project_zero\obj\Debug\net5.0\A_CSharpProjectZero.csproj.AssemblyReference.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\A_CSharp_project_zero\obj\Debug\net5.0\A_CSharpProjectZero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anzakaryan\source\repos\C_sharp_basics\A_CSharp_project_zero\obj\Debug\net5.0\A_CSharpProjectZero.AssemblyInfoInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\A_CSharp_project_zero\obj\Debug\net5.0\A_CSharpProjectZero.AssemblyInfo.cs
+C:\Users\anzakaryan\source\repos\C_sharp_basics\A_CSharp_project_zero\obj\Debug\net5.0\A_CSharpProjectZero.csproj.CoreCompileInputs.cache

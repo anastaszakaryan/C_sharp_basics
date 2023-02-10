@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "A_CSharpProjectZero/1.0.0": {
+        "dependencies": {
+          "D_OOP": "1.0.0"
+        },
         "runtime": {
           "A_CSharpProjectZero.dll": {}
+        }
+      },
+      "D_OOP/1.0.0": {
+        "runtime": {
+          "D_OOP.dll": {}
         }
       }
     }
   },
   "libraries": {
     "A_CSharpProjectZero/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "D_OOP/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

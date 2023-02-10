@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A_CSharpProjectZero", "A_CSharpProjectZero.csproj", "{2E843572-0DFD-411E-9D74-23F5E93D2FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B_ControlFlow", "..\B_ControlFlow\B_ControlFlow.csproj", "{09811C42-2EC6-4FA2-8D95-D0326281DD37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B_ControlFlow", "..\B_ControlFlow\B_ControlFlow.csproj", "{09811C42-2EC6-4FA2-8D95-D0326281DD37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D_OOP", "..\D_OOP\D_OOP\D_OOP.csproj", "{BFC9364D-8BC0-41BF-B2B5-41DAB7D3E7BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{09811C42-2EC6-4FA2-8D95-D0326281DD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09811C42-2EC6-4FA2-8D95-D0326281DD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09811C42-2EC6-4FA2-8D95-D0326281DD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC9364D-8BC0-41BF-B2B5-41DAB7D3E7BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC9364D-8BC0-41BF-B2B5-41DAB7D3E7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC9364D-8BC0-41BF-B2B5-41DAB7D3E7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC9364D-8BC0-41BF-B2B5-41DAB7D3E7BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,16 +1,22 @@
-﻿using System;
+﻿using D_OOP;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+
 namespace C_sharp_project_zero
 {
     class Program2
     {
         static void Main(string[] args)
-        { 
+        {
+            Character c = new Character();
+            c.Hit(10);
+
+            Console.WriteLine(c.Health);
         }
         static void Homework03()
         {

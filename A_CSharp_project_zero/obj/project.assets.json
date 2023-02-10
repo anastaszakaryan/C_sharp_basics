@@ -1,26 +1,50 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "D_OOP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/D_OOP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/D_OOP.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "D_OOP/1.0.0": {
+      "type": "project",
+      "path": "../D_OOP/D_OOP/D_OOP.csproj",
+      "msbuildProject": "../D_OOP/D_OOP/D_OOP.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "D_OOP >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\anzakaryan\\.nuget\\packages\\": {}
+    "C:\\Users\\anzakaryan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anzakaryan\\source\\repos\\C_sharp_basics\\C_sharp_project_zero\\A_CSharpProjectZero.csproj",
+      "projectUniqueName": "C:\\Users\\anzakaryan\\source\\repos\\C_sharp_basics\\A_CSharp_project_zero\\A_CSharpProjectZero.csproj",
       "projectName": "A_CSharpProjectZero",
-      "projectPath": "C:\\Users\\anzakaryan\\source\\repos\\C_sharp_basics\\C_sharp_project_zero\\A_CSharpProjectZero.csproj",
+      "projectPath": "C:\\Users\\anzakaryan\\source\\repos\\C_sharp_basics\\A_CSharp_project_zero\\A_CSharpProjectZero.csproj",
       "packagesPath": "C:\\Users\\anzakaryan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anzakaryan\\source\\repos\\C_sharp_basics\\C_sharp_project_zero\\obj\\",
+      "outputPath": "C:\\Users\\anzakaryan\\source\\repos\\C_sharp_basics\\A_CSharp_project_zero\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\anzakaryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\anzakaryan\\source\\repos\\C_sharp_basics\\D_OOP\\D_OOP\\D_OOP.csproj": {
+              "projectPath": "C:\\Users\\anzakaryan\\source\\repos\\C_sharp_basics\\D_OOP\\D_OOP\\D_OOP.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -60,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

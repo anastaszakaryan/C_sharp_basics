@@ -1,0 +1,16 @@
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\bin\Debug\net5.0\D_OOP.exe
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\bin\Debug\net5.0\D_OOP.deps.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\bin\Debug\net5.0\D_OOP.runtimeconfig.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\bin\Debug\net5.0\D_OOP.runtimeconfig.dev.json
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\bin\Debug\net5.0\D_OOP.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\bin\Debug\net5.0\ref\D_OOP.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\bin\Debug\net5.0\D_OOP.pdb
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\D_OOP.csproj.AssemblyReference.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\D_OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\D_OOP.AssemblyInfoInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\D_OOP.AssemblyInfo.cs
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\D_OOP.csproj.CoreCompileInputs.cache
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\D_OOP.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\ref\D_OOP.dll
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\D_OOP.pdb
+C:\Users\anzakaryan\source\repos\C_sharp_basics\D_OOP\D_OOP\obj\Debug\net5.0\D_OOP.genruntimeconfig.cache

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = A_CSharpProjectZero
-build_property.ProjectDir = C:\Users\anzakaryan\source\repos\C_sharp_basics\C_sharp_project_zero\A_CSharp_project_zero\
+build_property.ProjectDir = C:\Users\anzakaryan\source\repos\C_sharp_basics\A_CSharp_project_zero\

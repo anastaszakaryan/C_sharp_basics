@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\A_CSharp_project_zero",
-    "\\C_ArraysCollection"
+    "\\A_CSharp_project_zero\\bin",
+    "\\A_CSharp_project_zero\\bin\\Debug"
   ],
-  "SelectedNode": "\\C_ArraysCollection\\C_ArraysCollection.sln",
+  "SelectedNode": "\\A_CSharp_project_zero\\C_sharp_project_zero.sln",
   "PreviewInSolutionExplorer": false
 }
