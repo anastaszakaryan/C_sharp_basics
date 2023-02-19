@@ -8,6 +8,27 @@ namespace D_OOP
 {
     public class Calculator
     {
+        public double Average(int[] numbers)
+        {
+            int sum = 0;
+            foreach (int n in numbers)
+            {
+                sum += n;
+            }
+            return (double)sum / numbers.Length;
+        }
+
+        // аргумент params должен быть последним в списке аругментов
+        public double AverageWithParams(params int[] numbers)
+        {
+            int sum = 0;
+            foreach (int n in numbers)
+            {
+                sum += n;
+            }
+            return (double)sum / numbers.Length;
+        }
+
         public double CalcTriangleSquare(double ab, double bc, double ac)
         {
             double P = (ab + bc + ac) / 2;

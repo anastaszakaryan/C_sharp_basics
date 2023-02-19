@@ -6,6 +6,16 @@ namespace D_OOP
     {
         static void Main(string[] args)
         {
+            Calculator calc = new Calculator();
+            double avg = calc.Average(new int[] { 1, 2, 3, 4});
+            Console.WriteLine(avg);
+
+            avg = calc.AverageWithParams( 1, 2, 3, 4 );
+            Console.WriteLine(avg);
+        }
+
+        static void RomanNumeral()
+        {
             Console.WriteLine(RomanNumeral.Parse("XIV"));
             Console.ReadLine();
         }
